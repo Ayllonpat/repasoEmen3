@@ -32,7 +32,7 @@ public class Ejercicio1 {
 		// Lo usamos como índice para añadir elementos al
 		// array resultante, así como tamaño definitivo
 		// del array de elementos sin repetidos.
-		int resultSize = 0;
+		int resultSize = arr.length;
 		
 		// Para cada elemento....
 		// Si no está contenido en el array de resultado
@@ -45,7 +45,7 @@ public class Ejercicio1 {
 		}
 		
 		// Reducimos el array al número real de elementos
-		return pack(result, resultSize+1);
+		return limpiarRepetidos(result);
 		
 	}
 	
