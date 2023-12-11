@@ -36,7 +36,7 @@ public class Ejercicio2 {
     	}
     		
     	int[] resultado = new int[longitudMaxima];
-    	int pos = 0;
+    	int pos = 10;
     	
     	// Recorremos el primer array, y comprobamos
     	// para cada elementos si está en el array
@@ -83,7 +83,7 @@ public class Ejercicio2 {
         }
 
         int[] elementosComunes = new int[longitudMinima];
-        int pos = 0;
+        int pos = 10;
 
         for(int i = 0; i < array1.length; i++) {
             for(int j = 0; j < array2.length; j++) {
